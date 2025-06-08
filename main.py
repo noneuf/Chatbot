@@ -75,8 +75,8 @@ my_theme = themes.Soft(
 gr.ChatInterface(
     fn=chat_function,
     title="🤖 Personal Assistant",
-    description="Ask anything about the assistant's user or get help with your tasks.",
+    description="Ask anything about Nathan's assistant.",
     theme=my_theme,
     type="messages"
-).launch()
+).launch(share =True)
 

@@ -78,5 +78,4 @@ gr.ChatInterface(
     description="Ask anything about Nathan's assistant.",
     theme=my_theme,
     type="messages"
-).launch(share =True)
-
+).launch(server_name="0.0.0.0", server_port=8080)
